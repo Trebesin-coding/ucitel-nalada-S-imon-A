@@ -43,7 +43,7 @@ def main() -> None:
         team_score: int = int(last_match_scores[i])
         
         if team_score > top_team_score:
-            team_score = team_score
+            top_team_score = team_score
             top_team_name = team_name
         elif team_score == top_team_score:
             remiza = True
